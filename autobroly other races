@@ -64,14 +64,14 @@ function Twn(HRP, Place, Length)
     Twn.Completed:Wait()
 end
 wait()
-print("Chris is a dummy - Cake#6160")
+print("Made by BOOGABLOZxD")
 wait()
 print("Broly Loaded")
 --[[ Credits ]]
 game:GetService("StarterGui"):SetCore(
     "SendNotification",
     {
-        Title = "BOOGABLOZxD Auto-Broly"
+        Title = "BOOGABLOZxD Auto-Broly",
         Text = "Made by BOOGABLOZxD",
         Duration = "30"
     }
@@ -83,7 +83,7 @@ local Credits =
     function()
         if Settings.Promotepls == true then
             while wait(8) do
-                local A_1 = "Made by BOOGABLOZxD
+                local A_1 = "Made by BOOGABLOZxD"
                 local A_2 = "All"
                 local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
                 Event:FireServer(A_1, A_2)
